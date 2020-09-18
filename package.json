@@ -1,0 +1,33 @@
+{
+  "name": "mindee_node_receipt",
+  "version": "1.0.0",
+  "description": "parsing receipts with Mindee and NODE",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougsillars/mindee_node_receipt.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougsillars/mindee_node_receipt/issues"
+  },
+  "homepage": "https://github.com/dougsillars/mindee_node_receipt#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "0.0.1-security",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
