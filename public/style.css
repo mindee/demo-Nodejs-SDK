@@ -1,0 +1,149 @@
+#main{
+    position: relative;
+    height: auto;
+    min-height: 100% !important;
+}
+#leftnav{
+    background-color: lightgray;
+    float: left;
+    width: 33%;
+    min-height: 100%;
+ 
+ 
+}
+#images{
+    padding-left: 20px;
+    width:75%;
+    align-content: center;
+
+}
+#receiptimg{
+    width:100%;
+}
+#invoiceimg{
+    width:100%;
+}
+#findocimg{
+    width:100%;
+}
+#list{
+    padding: 40px;
+    width: 60%;
+
+
+}
+#listitem{
+    height: 120px;
+}
+
+.bigcircleblu{
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    border-radius: 45px; 
+    opacity: 30%;
+    background-color: #007dff;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+#rightnav{
+    
+    color:white;
+    float:right;
+    width:66%;
+    min-height: 100%;
+    background-color: #001E3C;
+
+}
+#uploads{
+  
+    padding:20px;
+}
+
+.button-label{
+    width: 25%;
+    height: 100px;
+    line-height: 100px;
+    color:white;
+    display: inline-block;
+    text-align:center;
+    justify-content: center;
+    font-size: x-large;
+    box-sizing: border-box;
+    overflow: hidden;
+    color:white;
+    background-color: #007DFF;
+    position: absolute;
+    margin: 20px;
+    position: absolute;
+    top: 50%;
+    
+
+}
+
+.seen{
+    display:inline;
+}
+.hidden{
+    display:none;
+}
+
+#image{
+    position:relative;
+    width:540px;
+    height:700px;
+}
+#pdf{
+    position:absolute;
+    z-index:1;
+}
+#canvas{
+    position:relative;
+    z-index:20;
+}
+
+#predictions{
+    float:left;
+    width:45%;
+    color:white;
+    font-size: large;
+}
+
+
+#additional{
+    float: right;
+    width:45%;
+    color:white;
+    font-size: large;
+}
+
+#submit{
+    width: 25%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #007DFF;
+    color:white;
+    font-size: x-large;
+}
+
+#results{
+    width: 50%;
+    color: white;
+    padding-left:25px;
+    padding-top:25px;
+    justify-content: center;
+    font-size: large;
+    overflow: scroll;
+    
+    
+
+}

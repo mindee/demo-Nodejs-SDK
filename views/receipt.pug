@@ -1,12 +1,16 @@
+head
+  link(rel='stylesheet', href='../style.css')
+  link(rel='icon', href='icon.ico', type='image/x-icon')
 body
   header.header 
+    img(src=schoolImage)
+    h1 Node.js Receipt parsing
+
+  h2 please upload an image of your receipt
+
+  
+  form(action="/receipt" method = "POST" enctype="multipart/form-data").form  
+    p
     
-    
-    
-    p here's the data extracted:
-	
-    p Merchant: #{merchant}
-    p Merchant Type: #{merchantType}
-    p Tax: #{tax}
-    p Total #{total}
-    a(href='/') Parse another receipt!
+    input(type='file', name='imageSource').input   
+    input(type='submit', value='Submit')

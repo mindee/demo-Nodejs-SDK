@@ -1,16 +1,41 @@
 head
   link(rel='stylesheet', href='../style.css')
   link(rel='icon', href='icon.ico', type='image/x-icon')
+  script(src='/index.js')
 body
-  header.header 
-    img(src=schoolImage)
-    h1 Node.js Receipt parsing
+  div(id='main')
+    div(id='leftnav')
 
-  h2 please upload an image of your receipt
+      img(src="images/mindeesvg.svg")
+      h1 Mindee's NodeJS demos
+      div(id="images")
+        p
+          img(id="receiptimg" src="images/receipt.jpg")
+          
+        p 
+          img(id="invoiceimg" src="images/invoice.jpg")
+        
+       
+          
 
-  
-  form(action="/" method = "POST" enctype="multipart/form-data").form  
-    p
-    |Your reciept
-    input(type='file', name='imageSource').input   
-    input(type='submit', value='Submit')
+    div(id='rightnav')
+      div(id="uploads" )
+        div(id="receipt" class="seen")
+          h2 Please upload your receipt
+          form( method = "POST" enctype="multipart/form-data").form  
+        
+            label(for="receiptbutton" class="button-label") Add your Receipt
+            input(id="receiptbutton" style="display:none" type='file', name='imageSource').input   
+            
+        div(id="invoice" class="hidden")
+          h2 Please upload your invoice
+          
+          form( method = "POST" enctype="multipart/form-data").form  
+        
+            label(for="invoicebutton" class="button-label") Add your Invoice
+            input(id="invoicebutton" style="display:none" type='file', name='imageSource').input   
+      div(id="results" class="hidden")    
+        pre(id="jsonresults")
+
+        
+        
