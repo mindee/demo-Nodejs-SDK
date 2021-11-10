@@ -13,17 +13,13 @@ window.onload= function(){
     receiptimg.addEventListener('click', () => {
         receiptForm.className = "seen";
         invoiceForm.className = "hidden";
-        findocForm.className = "hidden";
         resultsPage.className="hidden";
-    
     });
 
     invoiceimg.addEventListener('click', () => {
         receiptForm.className = "hidden";
-        invoiceForm.className = "seen";
-        findocForm.className = "hidden";
+        invoiceForm.className = "seen";      
         resultsPage.className="hidden";
-    
     });
 
 
@@ -32,11 +28,16 @@ window.onload= function(){
     var invoicebutton = document.getElementById("invoicebutton");
     var findocbutton = document.getElementById("findocbutton");
 
+    receiptbutton.addEventListener('click', () => {
+        console.log("click");
+    });
+
     receiptbutton.addEventListener('change', () => {
         
         //hide receipts
         receiptForm.className = "hidden";
         resultsPage.className="seen";
+        jsonresults.className="seen";
         //upload the image
         const file = receiptbutton.files[0];
         const filename = file.name
