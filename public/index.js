@@ -76,10 +76,10 @@ window.onload= function(){
         req.onload = function (oEvent){
             //uploaded, display results
             
-            console.log(req.response);
+           // console.log(req.response);
         
             var resultsJSON = JSON.parse(req.response);
-            console.log("resultsJSON",resultsJSON);
+           // console.log("resultsJSON",resultsJSON);
             var prettyPrint = JSON.stringify(resultsJSON,null,2);
             jsonresults.textContent = prettyPrint;
             
