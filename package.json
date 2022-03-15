@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/dougsillars/mindee_node_receipt.git"
   },
-  "author": "",
+  "author": "Doug Sillars",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dougsillars/mindee_node_receipt/issues"
