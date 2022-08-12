@@ -27,7 +27,7 @@
     "formidable": "^1.2.6",
     "fs": "0.0.1-security",
     "mindee": "^1.0.9",
-    "nodemon": "^2.0.15",
+    "nodemon": "^2.0.19",
     "pug": "^3.0.0",
     "request": "^2.88.2"
   }
